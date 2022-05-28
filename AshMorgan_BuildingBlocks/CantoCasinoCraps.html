@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Author: Ashten Morgan 5/23/2022-->
+    <!--Craps! at Canto Casino for CSC102 Week 2-->
+<head> <!--HTML environment setup-->
+    <link rel="stylesheet" href="stylesheet.css"> <!--Reference to stylesheet.css-->
+    <script type = "text/javascript" src = "code.js"></script> <!--Reference to JavaScript code to allow references to js functions-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craps! of Canto</title> <!--Title of the webpage-->
+</head>
+<body id="wrapper"> <!--ID for CSS reference-->
+    <h1>
+        CRAPS!
+    </h1>
+    <img src="reddice.png".innerHTML style="width:8em; height:5em;"/> <!--Decorative Dice image-->
+    <br/> <!--Line break-->
+    <br/>
+    <br/>
+    <p> <!--beginning of paragraph text-->
+        Welcome to the Canto Casino of Canto Bight, the most fabulous city in the Outer Rim!
+        <br/>
+        To win, roll doubles with two six-sided die! 
+        If you roll a 7 or an 11, you lose! If you roll neither, 
+        you must try again. Good luck!
+    </p>
+    <br/>
+    <button onclick="play()"> <!--Creates button with the attribute to call the play function from code.js when clicked-->
+        Roll the Dice!
+    </button>
+    <br/>
+    <p id="currency"> <!--Paragraph line updates as value of currency changes via code.js-->
+        Credits | 100c
+    </p>
+    <br/>
+<p id="dieARoll"></p> <!--Paragraph line displays value for die roll A-->
+<p id="dieBRoll"></p> <!--Paragraph line displays value for die roll B-->
+<p id="rollSum"></p> <!--Paragraph line displays sum of values from die rolls A and B-->
+<p id="outcome"></p> <!--Statement describing the outcome of the roll-->
+</body>
+</html>

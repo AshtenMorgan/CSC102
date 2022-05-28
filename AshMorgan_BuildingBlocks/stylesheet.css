@@ -1,0 +1,89 @@
+@charset "utf-8";
+*{box-sizing:border-box;}
+
+body {
+    background-image: url("spaceseamless.png");
+    background-repeat: repeat;
+    background-color:whitesmoke;
+    font-family:'Roboto';
+    font-weight:bold;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    }
+
+ #wrapper {
+    width:800px;
+    height:750px;
+    margin:auto;
+    border:10px solid;
+    padding:28px;
+    background-color:rgb(255, 255, 255);
+    box-shadow:0px 0px 50px rgb(255, 0, 0);
+}
+
+h1 {
+    font-size: 70px;
+    color:rgb(255, 0, 0);
+}
+h2 {
+    font-size: 30px;
+}
+
+button {
+    font-size:120%;
+    display:block;
+	width:140px;
+    height:50px;
+	margin-bottom:5px;
+	background-color:rgba(150, 29, 29, 0.479);
+    color:whitesmoke;
+    margin:auto;
+}
+
+button:hover {
+    font-size:140%;
+    display:block;
+	width:165px;
+    height:55px;
+	margin-bottom:5px;
+	background-color:rgb(243, 24, 24);
+    color:whitesmoke;
+    margin:auto;
+}
+p {
+	margin:auto;
+    color:rgb(255, 255, 255);
+    font-size:100%;
+    font-weight:bold;
+}
+
+#currency {
+    margin:auto;
+    color:rgb(255, 230, 0);
+    font-size:150%;
+    font-weight:bold;
+}
+#dieBRoll {
+	margin:auto;
+    color:rgb(255, 255, 255);
+    font-size:200%;
+    font-weight:bold;
+}
+#dieARoll {
+	margin:auto;
+    color:rgb(255, 255, 255);
+    font-size:200%;
+    font-weight:bold;
+}
+#rollSum {
+	margin:auto;
+    color:rgb(99, 194, 238);
+    font-size:200%;
+    font-weight:bold;
+}
+#outcome {
+	margin:auto;
+    color:rgb(255, 255, 255);
+    font-size:200%;
+    font-weight:bold;
+}

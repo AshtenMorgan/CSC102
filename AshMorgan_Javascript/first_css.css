@@ -1,0 +1,18 @@
+body {
+    background-color: lightgreen;
+    font-size: 2.1em;
+}
+h1 {
+    color: aquamarine
+}
+#intro {
+    font-size: 1.0em;
+    color: red
+}
+.colorful {
+    color: blue;
+}
+p {
+    text-align: center;
+    color: yellow
+}
