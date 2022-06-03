@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <!--Author: Ashten Morgan 6/2/2022-->
+    <!--UAT Space Program Operator Login for UAT CSC102 Week 4-->
+    <head>
+        <link rel="stylesheet" href="LoginStylesheet.css">
+        <script src="LoginCode.js"></script>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X=UA-Compatible" content="ie=edge">
+        <title>UAT Space Program</title>
+    </head>
+    <!--Wrapper for CSS-->
+    <body id="wrapper">
+        <img src="UATSpaceProgram.png" style="text-align:center"> 
+        <h1 style="text-align: left"> UAT Space Program Login </h1> 
+            <form name="LoginForm" onsubmit="credCheck()">
+                <p>First Name<br>
+                <input name="FirstName" type="FirstName" size=30> </p>
+                <p>Last Name<br>
+                <input name="LastName" type="LastName" size=30> </p>
+                <p>Badge #<br>
+                <input name="Badge" type="Badge" size=5> </p>
+                <br>
+                <button type="submit"> Log In </button>
+            </form>
+    </body>
+</html>
