@@ -10,11 +10,12 @@
             <meta http-equiv="X=UA-Compatible" content="ie=edge">
         <title>UAT Space Program | Login</title>
     </head>
-    <!--Wrapper for CSS-->
-    <body id="wrapper">
+    <body id="wrapper"> <!--Wrapper for CSS-->
         <img src="UATSpaceProgram.png" style="text-align:center"> 
         <h1 style="text-align: left"> UAT Space Program Login </h1> 
+            <!--Login Form with reference to credCheck function in .js-->
             <form name="LoginForm" onsubmit="credCheck()">
+                <!--Input fields for User-->
                 <p>First Name<br>
                 <input name="FirstName" type="FirstName" size=30> </p>
                 <p>Last Name<br>
@@ -22,7 +23,7 @@
                 <p>Badge #<br>
                 <input name="Badge" type="Badge" size=5> </p>
                 <br>
-                <button type="submit"> Log In </button>
+                <button type="submit"> Log In </button> <!--Submit Button calls onsubmit in form-->
             </form>
     </body>
 </html>
