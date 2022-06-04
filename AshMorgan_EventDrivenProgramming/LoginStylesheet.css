@@ -1,0 +1,20 @@
+@charset "utf-8";
+*{box-sizing:border-box;}
+body {
+    background-color:whitesmoke;
+    font-family:sans-serif,bold, Arial, Helvetica;
+    font-weight:bold;
+    color:rgb(150, 22, 22);
+    text-align:center;
+    }
+
+#wrapper {
+    align-self:center;
+    margin:auto;
+    width:600px;
+    height:700px;
+    border:10px solid;
+    padding:80px;
+    background-color:whitesmoke;
+    box-shadow:5px 5px 10px grey;
+}
