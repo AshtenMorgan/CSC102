@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Author: Ashten Morgan 6/4/2022-->
+    <!--UAT Space Program We Have SOUND! for UAT CSC102 Week 4-->
+    <head>
+        <link rel="stylesheet" href="EDstylesheet.css">
+        <script src="EventDrivenCode.js"></script>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X=UA-Compatible" content="ie=edge">
+        <title>UAT Space Program</title>
+    </head>
+<body>
+    <style type="text/css"></style>
+    <img src="UATSpaceProgram.png"> 
+    <p>UAT Space Program</p>
+    <!--Creates Table, 2 Columns, 22 Rows-->
+        <table class="tg">
+            <col style="width: 50%">
+        <thead>
+          <tr>
+            <th class="tg-0pky">Data Type</th>
+            <th class="tg-0lax">Reading</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-0lax">Time elapsed:</td>
+            <td class="tg-0lax">15 seconds</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Latitude:</td>
+            <td class="tg-0lax">0</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Longitude:</td>
+            <td class="tg-0lax">0</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">GPS Altitude:</td>
+            <td class="tg-0lax">0</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">BMP Sensor Altitude:</td>
+            <td class="tg-0lax">30383.04</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">BMP Sensor Pressure:</td>
+            <td class="tg-0lax">2.34</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">BMP Sensor Temperature:</td>
+            <td class="tg-0lax">0</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Digital Sensor Temperature:</td>
+            <td class="tg-0lax">24.12</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CSS Sensor Temperature:</td>
+            <td class="tg-0lax">25</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CSS Sensor eCO2:</td>
+            <td class="tg-0lax">400</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CSS Sensor TVO2:</td>
+            <td class="tg-0lax">0</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">UV:</td>
+            <td class="tg-0lax">0</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Accel X:</td>
+            <td class="tg-0lax">-0.87</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Accel Y:</td>
+            <td class="tg-0lax">-0.02</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Accel Z:</td>
+            <td class="tg-0lax">9.61</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Magnetic X:</td>
+            <td class="tg-0lax">0.13</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Magnetic Y:</td>
+            <td class="tg-0lax">0.57</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Magnetic Z:</td>
+            <td class="tg-0lax">-0.24</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Gyro X:</td>
+            <td class="tg-0lax">4.66</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Gyro Y:</td>
+            <td class="tg-0lax">0.01</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">Gyro Z:</td>
+            <td class="tg-0lax">-0.4</td>
+          </tr>
+        </tbody>
+        </table>
+        <br>
+        <p> <input type="button" value="START" id="startButton" onclick="start()"/> <!--Creates button that calls start function in .js-->
+            <input type="button" value="STOP" id="stopButton" onclick="stop()" disabled="true"/> <!--Creates button that calls stop function in .js-->
+        </p>
+    <audio src="SoundsOfJupiter.mp3" autoplay="autoplay" loop="loop" controls="controls">
+    <source src="StartSound.mp3">
+    <source src="StopSound.mp3">
+    </audio>
+    <br><br><br><br><br><br><br>
+</body>
+</html>
