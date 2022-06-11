@@ -1,0 +1,97 @@
+table {
+    width: 45em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+body {
+    background-image: linear-gradient(to top left,rgb(5, 8, 39), rgb(33, 32, 95));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: whitesmoke;
+    font-family:'Roboto', sans-serif;
+    font-weight:lighter;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+input {
+    background-color: rgb(196, 202, 255);
+    color:rgb(9, 12, 43);
+    font-family:'Roboto', sans-serif;
+    font-weight:bolder;
+    font-size:20px;
+    width:120px;
+    height:40px;
+    border-radius:16px
+}
+
+input:hover {
+    color:rgb(196, 202, 255);
+    background-color: rgb(9, 12, 43);
+}
+
+input:disabled {
+    color:rgb(34, 33, 75);
+    background-color: rgb(9, 12, 43);
+}
+
+p {
+    margin-top:0em;
+    margin-bottom:0.5em;
+    font-family:'Roboto', sans-serif;
+    font-size:35px;
+    font-weight:bold;
+}
+
+img {
+    width:10em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.tg {
+    background-color: rgb(14, 21, 53);
+    border-color:rgb(196, 202, 255);
+    border-style:solid;
+    border-width:2px;
+    font-family:'Roboto';
+    font-weight:normal;
+}
+
+.tg td {
+    border-color:rgb(196, 202, 255);
+    border-style:solid;
+    border-width:1px;
+    font-family:'Roboto', sans-serif;
+    font-size:16px;
+    overflow:hidden;
+    padding:1px 20px;
+    word-break:normal;
+}
+.tg th {
+    border-color:rgb(196, 202, 255);
+    color:rgb(96, 255, 64);
+    border-style:solid;
+    border-width:1px;
+    font-family:'Roboto', sans-serif;
+    font-size:18px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:0px 20px;
+    word-break:normal;
+}
+
+.tg .tg-0pky {
+    border-color:inherit;
+    text-align:left;
+    vertical-align:top
+}
+
+.tg .tg-0lax {
+    text-align:left;
+    vertical-align:top
+}

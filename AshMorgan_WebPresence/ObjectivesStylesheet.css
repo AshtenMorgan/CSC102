@@ -1,0 +1,129 @@
+body {
+background-image: url("Painting_Earth.png");
+background-repeat: no-repeat;
+background-color: rgb(215, 203, 205);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+position: center;
+top:0px;
+left:0px;
+width: 1895px;
+height: 100%;
+}
+
+h1 {
+color: rgb(255, 255, 255);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 9001;
+font-size: 6em;
+font-style: italic;
+letter-spacing: 0.05em;
+line-height: 1;
+text-shadow: 3px 4px 6px #525252dc;
+margin-left: 30px;
+margin-top: -10px;
+margin-bottom: 10px;
+}
+
+h2 {
+color: rgb(255, 255, 255);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 9001;
+font-size: 3em;
+font-style: italic;
+letter-spacing: 0.05em;
+line-height: 1;
+text-shadow: 3px 4px 6px #000000dc;
+margin-left: 30px;
+}
+
+p {
+color: rgb(255, 255, 255);
+font-family: Roboto, sans-serif;
+font-weight: bold;
+font-size: 1.1em;
+text-shadow: 2px 2px 5px #414141;
+margin-left: 30px;
+}
+
+p1 {
+color: rgb(255, 255, 255);
+font-family: Roboto, sans-serif;
+font-weight: bold;
+font-size: 1.6em;
+}
+
+footer {
+color: rgb(255, 255, 255);
+font-family: Roboto, sans-serif;
+font-weight: bold;
+font-size: 1.1em;
+text-shadow: 2px 2px 5px #414141;
+margin-left: 30px;
+}
+
+.portrait {
+width: 415px;
+height: 415px;
+margin-left: 60px;
+border-radius: 1em;
+box-shadow: 0px 0px 5px #000000;
+}
+
+div {
+background-color: rgba(15, 14, 63, 0.938);
+margin-left:-8px;
+}
+
+.title {
+float: left;
+width: 20%;
+background-color: rgba(15, 14, 63, 0);
+color: rgb(255, 255, 255);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bolder;
+font-size: 3em;
+font-style: italic;
+letter-spacing: 0.05em;
+text-shadow: 3px 4px 6px #000000dc;
+margin-top: 20px;
+margin-left: 30px;
+}
+
+.text {
+margin-top: 25px;
+margin-bottom: 25px;
+float: left;
+width: 70%;
+background-color: rgba(15, 14, 63, 0);
+}
+
+.objectives:after {
+content: "";
+display: table;
+clear: both;
+}
+
+nav {
+text-align: right;
+background-color: rgba(15, 14, 63, 0.938);
+color: rgb(255, 255, 255);
+font-family: Roboto, sans-serif;
+font-weight: bold;
+font-size: 1.4em;
+margin-left: -8px;
+margin-top: -8px;
+position: sticky;
+top: 0;
+left: 0;
+}
+
+a {
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+
+a:hover {
+color: rgb(16, 219, 255);
+}

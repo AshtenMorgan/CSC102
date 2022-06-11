@@ -1,0 +1,22 @@
+nav {
+text-align: right;
+background-color: rgba(15, 14, 63, 0.938);
+color: rgb(255, 255, 255);
+font-family: Roboto, sans-serif;
+font-weight: bold;
+font-size: 1.4em;
+margin-left: -8px;
+margin-top: -8px;
+position: sticky;
+top: 0;
+left: 0;
+}
+
+a {
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+
+a:hover {
+color: rgb(16, 219, 255);
+}
